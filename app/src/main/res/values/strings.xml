@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">KidGuard</string>
+    <string name="nav_monitor">Giám sát</string>
+    <string name="nav_rules">Quy tắc</string>
+    <string name="nav_logs">Nhật ký</string>
+    <string name="nav_settings">Cài đặt</string>
+    <string name="ai_notice_title">Chế độ nhận diện AI mẫu</string>
+    <string name="ai_notice_body">Phân tích độ tuổi bằng Gemini Vision qua Firebase AI Logic. Khi chưa cấu hình Firebase hoặc thiếu camera, hệ thống tự chạy chế độ mô phỏng để bảo vệ quyền riêng tư và không lưu ảnh của trẻ.</string>
+    <string name="camera_permission_title">Quyền Camera trước (Tùy chọn)</string>
+    <string name="camera_permission_desc">Camera chỉ chụp khung hình thưa khi cần kiểm tra độ tuổi, hoàn toàn không lưu ảnh vào bộ nhớ.</string>
+    <string name="camera_permission_button">Bật Camera kiểm tra</string>
+    <string name="pin_default_hint">Mã PIN mặc định: 1234</string>
+    <string name="pin_error_wrong">Mã PIN không đúng. Vui lòng thử lại.</string>
+    <string name="usage_access_disclosure_title">Cần quyền Truy cập Dữ liệu Sử dụng</string>
+    <string name="usage_access_disclosure_body">KidGuard dùng quyền Usage Access (UsageStatsManager) để đo chính xác thời gian bé dùng YouTube, TikTok, trò chơi và tổng thời gian màn hình mà không cần bật camera liên tục, giúp tiết kiệm pin tối đa.</string>
+    <string name="battery_disclosure_title">Tắt tối ưu pin để chạy nền ổn định</string>
+    <string name="battery_disclosure_body">Trên Xiaomi, Oppo, Samsung, hệ thống thường tự tắt ứng dụng nền sau vài phút. Hãy cho phép KidGuard không bị tối ưu pin và bật Tự khởi chạy (Autostart) để bộ đếm giờ không bị gián đoạn.</string>
+    <string name="overlay_disclosure_title">Quyền hiển thị trên ứng dụng khác</string>
+    <string name="overlay_disclosure_body">Quyền này cho phép KidGuard hiển thị màn hình khóa mềm nhắc bé nghỉ mắt khi hết giờ hoặc đến giờ đi ngủ, ngay cả khi bé đang mở ứng dụng khác. Bạn vẫn có thể bỏ qua nếu chỉ dùng nhắc nhở thông báo.</string>
+</resources>

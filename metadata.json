@@ -1,0 +1,6 @@
+{
+  "name": "KidGuard",
+  "description": "Ứng dụng dùng camera AI nhận diện trẻ em lướt điện thoại quá giờ quy định hoặc khung giờ tối để phát cảnh báo hù dọa.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
